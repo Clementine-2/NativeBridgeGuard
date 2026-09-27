@@ -1,0 +1,9 @@
+{
+  "name": "com.nativebridgeguard.lab",
+  "description": "NativeBridgeGuard harmless lab host",
+  "path": "REPLACE_WITH_ABSOLUTE_HOST_LAUNCHER_PATH",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://REPLACE_WITH_EXTENSION_ID/"
+  ]
+}

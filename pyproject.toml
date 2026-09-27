@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nativebridgeguard"
+version = "0.1.5"
+description = "Windows Chromium Native Messaging effective trust-path auditor and trust-drift detector"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "NativeBridgeGuard contributors"}]
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.scripts]
+nativebridgeguard = "nativebridgeguard.cli:main"
+
+[tool.setuptools]
+packages = ["nativebridgeguard"]

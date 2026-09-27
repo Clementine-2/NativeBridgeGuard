@@ -1,0 +1,64 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Test / tool cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local temporary files
+*.tmp
+*.log
+
+# Local runtime state / monitor artifacts (per-user, never committed)
+.nbg/
+artifacts/local/
+
+# Monitor state directories and locally generated scan output. These describe a
+# real machine (paths, binaries, extension IDs) and must never be committed.
+state-*/
+nbg-state/
+snapshot.json
+events.ndjson
+alert.md
+meta.json
+
+# Machine-specific live scan snapshots and review bundles (not repo content)
+baseline.json
+baseline.md
+after_aclfix.json
+after_aclfix.md
+NBG006_ACL_FIX/
+NBG006_ACL_FIX.zip
+V015_REVIEW_BUNDLE/
+V015_REVIEW_BUNDLE.zip
+V015_RC1_REVIEW_BUNDLE/
+V015_RC1_REVIEW_BUNDLE.zip
+V015_RC11_REVIEW_BUNDLE/
+V015_RC11_REVIEW_BUNDLE.zip
+
+# Lab runtime artifacts written by lab/scripts (sanitized examples only in examples/)
+lab/runtime/
+
+# Raw Windows acceptance evidence: machine-specific (user names, absolute paths,
+# host names). Kept locally for review; sanitized summaries live in docs/evidence/.
+WINDOWS_ACCEPTANCE/
+
+# Local agent working directory (session memory, scratch state)
+.workbuddy/
