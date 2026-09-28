@@ -14,10 +14,12 @@ There are no long-term maintenance branches for v0.1.x.
 
 There is no dedicated security mailbox at this time.
 
-> Please open a **GitHub Security Advisory** after the repository is published.
-> Until the repository is public and has Security Advisories enabled, open a
-> regular issue containing only a description — no exploit steps against a real
-> endpoint, and no raw scan output.
+> Please open a **GitHub Security Advisory** (private vulnerability report) via
+> the Security tab of this repository. GitHub Private Vulnerability Reporting is
+> enabled, so reports remain private until coordinated disclosure.
+>
+> If you cannot use the advisory flow, open a regular issue containing only a
+> description — no exploit steps against a real endpoint, and no raw scan output.
 
 ## Do NOT include these in a public issue
 
